@@ -46,6 +46,12 @@ link = npm link ../perspective-core-server && npm link ../perspective-core
 install = npm install
 order = 3
 
+[perspective-user]
+checkout = git clone 'git@github.com:perspective/perspective-user.git' 'perspective-user'
+link = npm link
+install = npm install
+order = 3
+
 [perspective-client]
 checkout = git clone 'git@github.com:perspective/perspective-client.git' 'perspective-client'
 install = npm install
