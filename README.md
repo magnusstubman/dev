@@ -91,7 +91,7 @@ Other useful `mr` commands are:
 #### Boot frontend
 1. `cd perspective-client`
 2. `npm install`
-3. `bower install`
+3. `./make.js`
 4. `./dev.sh`
 
 
